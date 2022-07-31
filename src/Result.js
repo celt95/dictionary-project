@@ -6,6 +6,16 @@ export default function Result(props) {
     return (
       <div className="Result">
         <h2>{props.data.word}</h2>
+        <div className="phonetic">{props.data.phonetics[0].text}</div>
+        <div className="phonetic-audio">
+          <a
+            href={props.data.phonetics[0].audio}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Listen
+          </a>
+        </div>
         {props.data.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
