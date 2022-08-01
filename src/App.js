@@ -4,13 +4,13 @@ import Dictionary from "./Dictionary";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Looking for a word?</header>
-      <div className="container">
+      <div className="container mt-5">
+        <h1>Dictionary</h1>
         <main>
           <Dictionary />
         </main>
       </div>
-      <footer>Coded by Cylia</footer>
+      <footer className="mt-5">Open source code by Cylia Tareb</footer>
     </div>
   );
 }
