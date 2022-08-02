@@ -5,5 +5,12 @@
   border: 1px solid #ddd;
   outline: none;
   color: #333;
-  margin-top: 30px;
+}
+
+.Dictionary section {
+  background-color: white;
+  padding: 30px;
+  margin: 20px 0;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  border-radius: 6px;
 }
