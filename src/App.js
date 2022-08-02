@@ -10,7 +10,16 @@ function App() {
           <Dictionary />
         </main>
       </div>
-      <footer className="mt-5">Open source code by Cylia Tareb</footer>
+      <footer className="mt-5">
+        <a
+          href="https://github.com/celt95/dictionary-project"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open source code
+        </a>{" "}
+        by Cylia Tareb
+      </footer>
     </div>
   );
 }

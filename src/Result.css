@@ -5,3 +5,20 @@ section {
   box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
   border-radius: 6px;
 }
+
+.phonetic-audio a {
+  text-decoration: none;
+  border: 1px solid #ddd;
+  padding: 10px 10px;
+  border-radius: 15px;
+  color: #7fa3ff;
+  transition: all 200ms ease-in-out;
+}
+
+.phonetic-audio a:hover {
+  color: #003bd3;
+}
+
+.Result .phonetic {
+  font-size: 15px;
+}

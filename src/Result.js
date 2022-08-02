@@ -9,7 +9,7 @@ export default function Result(props) {
         <section>
           <h2>{props.data.word}</h2>
           <div className="phonetic">{props.data.phonetics[0].text}</div>
-          <div className="phonetic-audio">
+          <div className="phonetic-audio mt-3">
             <a
               href={props.data.phonetics[0].audio}
               target="_blank"
